@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="757dp"
+        android:layout_height="889dp"
+        android:layout_marginTop="110dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+
+            android:layout_gravity="center"
+            android:src="@drawable/loginavatar" />
+
+
+        <EditText
+            android:id="@+id/etUsername1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:drawableStart="@drawable/ic_baseline_login_24"
+            android:drawableLeft="@drawable/ic_baseline_login_24"
+            android:hint="Username"
+            android:paddingBottom="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#83b1c1"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etPassword1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUsername1"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:drawableStart="@drawable/ic_baseline_lock_open_24"
+            android:drawableLeft="@drawable/ic_baseline_lock_open_24"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:paddingBottom="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#83b1c1"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnSignIn1"
+            android:layout_width="220dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/etPassword1"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Let's go"
+
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
